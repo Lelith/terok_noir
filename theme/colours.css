@@ -1,7 +1,19 @@
 /*
 --------------------------------------------------------------
 Colours and backgrounds for common.css
+
+
+#151515 main bg
+#3B3B3B even
+#737373 odd
+#CBCBCB text
+#FFFFFF text lighter
+#008B00 green highlights color
+#DF6500 orange highlights color
+#0E3795 blue hightlights color
+
 -------------------------------------------------------------- */
+
 
 html, body {
 	color: #888;
@@ -48,24 +60,24 @@ hr {
 }
 
 .headerbar {
-	background-color: #0A0;
+	background-color: #008B00;
 	color: #FFFFFF;
 }
 
 .navbar {
-	background-color: #2c2c2c;
+	background-color: #3B3B3B;
 }
 
 .forabg {
-	background-color: #0A0;
+	background-color: #008B00;
 }
 
 .forumbg {
-	background-color: #0A0;
+	background-color: #008B00;
 }
 
 .panel {
-	background-color: #2C2C2C;
+	background-color: #3B3B3B;
 }
 
 .post:target .content {
@@ -77,11 +89,11 @@ hr {
 }
 
 .bg1 {
-	background-color: #2c2c2c;
+	background-color: #3B3B3B;
 }
 
 table.zebra-list tr:nth-child(odd) td, ul.zebra-list li:nth-child(odd) {
-	background-color: #2c2c2c;
+	background-color: #3B3B3B;
 }
 
 .bg2 {
@@ -92,7 +104,7 @@ table.zebra-list tr:nth-child(even) td, ul.zebra-list li:nth-child(even) {
 	background-color: #1B1B1B;
 }
 
-.bg3	{ background-color: #2C2C2C; }
+.bg3	{ background-color: #3B3B3B; }
 
 .ucprowbg {
 	background-color: #DCDEE2;
@@ -240,7 +252,7 @@ p.post-notice.reported:before, p.post-notice.error:before {
 Colours and backgrounds for links.css
 -------------------------------------------------------------- */
 
-a { color: #0A0; }
+a { color: #008B00; }
 a:hover	{ color: #558000; }
 
 /* Links on gradient backgrounds */
@@ -305,6 +317,14 @@ a.arrow-right:hover {
 }
 
 /*
+------------------------------------------------------------
+colored icons
+----------------------------------------------------------- */
+a.icon.unread:before {
+	color: #DF6500;
+}
+
+/*
 --------------------------------------------------------------
 Colours and backgrounds for content.css
 -------------------------------------------------------------- */
@@ -314,7 +334,7 @@ ul.forums {
 }
 
 ul.topiclist li {
-	color: #434343;
+	color: #CBCBCB;
 }
 
 ul.topiclist dd {
@@ -331,7 +351,6 @@ ul.topiclist li.row dt a.subforum.read {
 }
 
 ul.topiclist li.row dt a.subforum.unread {
-	background-image: url("./images/subforum_unread.gif");
 }
 
 li.row {
@@ -344,7 +363,7 @@ li.row strong {
 }
 
 li.row:hover {
-	background-color: #2c2c2c;
+	background-color: #3B3B3B;
 }
 
 li.row:hover dd {
@@ -612,7 +631,7 @@ Colours and backgrounds for buttons.css
 
 .dropdown-visible .dropdown-select, .dropdown-visible .dropdown-select:hover, .nojs .dropdown-container:hover .dropdown-select {
 	border-color: #A6B2BA;
-	color: #0A0;
+	color: #008B00;
 }
 
 .contact-icons a		{ border-color: #DCDCDC; }
@@ -627,7 +646,6 @@ Colours and backgrounds for buttons.css
 .icon-delete-cookies		{ background-image: url("./images/icon_delete_cookies.gif"); }
 .icon-download				{ background-image: url("./images/icon_download.gif"); }
 .icon-faq					{ background-image: url("./images/icon_faq.gif"); }
-.icon-home					{ background-image: url("./images/icon_home.gif"); }
 .icon-logout				{ background-image: url("./images/icon_logout.gif"); }
 .icon-mark					{ background-image: url("./images/icon_mark.gif"); }
 .icon-mcp					{ background-image: url("./images/icon_mcp.gif"); }
@@ -675,10 +693,8 @@ Colours and backgrounds for buttons.css
 .announce_unread_locked_mine									{ background-image: url("./images/announce_unread_locked_mine.gif"); }
 
 .forum_link														{ background-image: url("./images/forum_link.gif"); }
-.forum_read														{ background-image: url("./images/forum_read.gif"); }
 .forum_read_locked												{ background-image: url("./images/forum_read_locked.gif"); }
 .forum_read_subforum											{ background-image: url("./images/forum_read_subforum.gif"); }
-.forum_unread													{ background-image: url("./images/forum_unread.gif"); }
 .forum_unread_locked											{ background-image: url("./images/forum_unread_locked.gif"); }
 .forum_unread_subforum											{ background-image: url("./images/forum_unread_subforum.gif"); }
 
@@ -746,19 +762,19 @@ ul.cplist {
 /* CP tabbed menu
 ----------------------------------------*/
 #tabs .tab > a {
-	background: #2C2C2C;
-	color: #0a0;
+	background: #3B3B3B;
+	color: #008B00;
 }
 
 #tabs .tab > a:hover {
-	background: #2C2C2C;
+	background: #3B3B3B;
 	color: #558000;
 }
 
 #tabs .activetab > a,
 #tabs .activetab > a:hover {
-	background: #2C2C2C;
-	border-color: #2C2C2C;
+	background: #3B3B3B;
+	border-color: #3B3B3B;
 	color: #8d8d8d;
 }
 
@@ -795,24 +811,24 @@ ul.cplist {
 #navigation a {
 	color: #333;
 	background: #B4C4D1;
-	background: -moz-linear-gradient(left, #B4C4D1 50%, #2C2C2C 100%);
-	background: -webkit-gradient(left top, right top, color-stop(50%, #B4C4D1), color-stop(100%, #2C2C2C));
-	background: -webkit-linear-gradient(left, #B4C4D1 50%, #2C2C2C 100%);
-	background: -o-linear-gradient(left, #B4C4D1 50%, #2C2C2C 100%);
-	background: -ms-linear-gradient(left, #B4C4D1 50%, #2C2C2C 100%);
-	background: linear-gradient(to right, #B4C4D1 50%, #2C2C2C 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#B4C4D1', endColorstr='#2C2C2C', GradientType=1 );
+	background: -moz-linear-gradient(left, #B4C4D1 50%, #3B3B3B 100%);
+	background: -webkit-gradient(left top, right top, color-stop(50%, #B4C4D1), color-stop(100%, #3B3B3B));
+	background: -webkit-linear-gradient(left, #B4C4D1 50%, #3B3B3B 100%);
+	background: -o-linear-gradient(left, #B4C4D1 50%, #3B3B3B 100%);
+	background: -ms-linear-gradient(left, #B4C4D1 50%, #3B3B3B 100%);
+	background: linear-gradient(to right, #B4C4D1 50%, #3B3B3B 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#B4C4D1', endColorstr='#3B3B3B', GradientType=1 );
 }
 
 .rtl #navigation a {
 	background: #B4C4D1;
-	background: -moz-linear-gradient(left, #2C2C2C 0%, #B4C4D1 50%);
-	background: -webkit-gradient(left top, right top, color-stop(0%, #2C2C2C), color-stop(50%, #B4C4D1));
-	background: -webkit-linear-gradient(left, #2C2C2C 0%, #B4C4D1 50%);
-	background: -o-linear-gradient(left, #2C2C2C 0%, #B4C4D1 50%);
-	background: -ms-linear-gradient(left, #2C2C2C 0%, #B4C4D1 50%);
-	background: linear-gradient(to right, #2C2C2C 0%, #B4C4D1 50%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2C2C2C', endColorstr='#B4C4D1', GradientType=1 );
+	background: -moz-linear-gradient(left, #3B3B3B 0%, #B4C4D1 50%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, #3B3B3B), color-stop(50%, #B4C4D1));
+	background: -webkit-linear-gradient(left, #3B3B3B 0%, #B4C4D1 50%);
+	background: -o-linear-gradient(left, #3B3B3B 0%, #B4C4D1 50%);
+	background: -ms-linear-gradient(left, #3B3B3B 0%, #B4C4D1 50%);
+	background: linear-gradient(to right, #3B3B3B 0%, #B4C4D1 50%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3B3B3B', endColorstr='#B4C4D1', GradientType=1 );
 }
 
 #navigation a:hover {
@@ -1072,12 +1088,12 @@ input.disabled {
 
 .dropdown-extended .header {
 	background: #F1F8FF;
-	background: -moz-linear-gradient(top, #F1F8FF 0%, #2C2C2C 100%);
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #F1F8FF), color-stop(100%, #2C2C2C));
-	background: -webkit-linear-gradient(top, #F1F8FF 0%, #2C2C2C 100%);
-	background: -o-linear-gradient(top, #F1F8FF 0%, #2C2C2C 100%);
-	background: -ms-linear-gradient(top, #F1F8FF 0%, #2C2C2C 100%);
-	background: linear-gradient(to bottom, #F1F8FF 0%, #2C2C2C 100%);
+	background: -moz-linear-gradient(top, #F1F8FF 0%, #3B3B3B 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #F1F8FF), color-stop(100%, #3B3B3B));
+	background: -webkit-linear-gradient(top, #F1F8FF 0%, #3B3B3B 100%);
+	background: -o-linear-gradient(top, #F1F8FF 0%, #3B3B3B 100%);
+	background: -ms-linear-gradient(top, #F1F8FF 0%, #3B3B3B 100%);
+	background: linear-gradient(to bottom, #F1F8FF 0%, #3B3B3B 100%);
 }
 
 .dropdown .pointer {
@@ -1093,7 +1109,7 @@ input.disabled {
 }
 
 ul.linklist li.responsive-menu a.responsive-menu-link:before {
-	border-color: #0A0;
+	border-color: #008B00;
 }
 
 ul.linklist li.responsive-menu a.responsive-menu-link:hover:before, ul.linklist li.responsive-menu.visible a.responsive-menu-link:before {
@@ -1122,7 +1138,7 @@ ul.linklist li.responsive-menu a.responsive-menu-link:hover:before, ul.linklist 
 ---------------------------------------- */
 
 .notification_list p.notification-time {
-	color: #434343;
+	color: #CBCBCB;
 }
 
 li.notification-reported strong, li.notification-disapproved strong {
