@@ -233,6 +233,14 @@ ol ol ul, ol ul ul, ul ol ul, ul ul ul {
 	padding: 3px 10px;
 }
 
+#nav-main li:before{
+		content:"";
+}
+#nav-main span:before{
+	font-weight:bold;
+	color:#008B00;
+}
+
 .forabg {
 	background: transparent none repeat-x 0 0;
 	margin-bottom: 4px;
@@ -585,20 +593,21 @@ ul.linklist.bulletin > li.no-bulletin:before {
 
 /* Responsive breadcrumbs
 ----------------------------------------*/
+#home_icon:before {
+	color: #008B00;
+}
 .breadcrumbs .crumb {
-	float: left;
+	display:inline-block;
 	font-weight: bold;
 	word-wrap: normal;
 }
-
-.breadcrumbs .crumb:before {
-	content: '\2039';
-	font-weight: bold;
-	padding: 0 0.5em;
+.breadcrumbs .crumb:after {
+	padding-left: 5px;
+	content: ">";
+	color: #008B00;
 }
-
-.breadcrumbs .crumb:first-child:before {
-	content: none;
+.breadcrumbs .crumb:last-child:after {
+	display:none;
 }
 
 .breadcrumbs .crumb a {

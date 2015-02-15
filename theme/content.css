@@ -52,6 +52,8 @@ ul.topiclist dt .list-inner {
 	margin-right: 440px;
 	padding-left: 5px;
 	padding-right: 5px;
+	display:inline-block;
+	vertical-align: top;
 }
 
 ul.topiclist.missing-column dt .list-inner {
@@ -88,6 +90,19 @@ ul.topiclist li.row dt a.subforum {
 	position: relative;
 	white-space: nowrap;
 	padding: 0 0 0 12px;
+}
+
+ul.topiclist li.row a:hover {
+	text-decoration:none;
+}
+ul.topiclist li.row a,
+ul.topiclist li.row span {
+	display:inline-block;
+	vertical-align: top;
+}
+ul.topiclist li.row .icon:before,
+ul.topiclist li.row .icon:before {
+	font-size: 30px;
 }
 
 .forum-image {
