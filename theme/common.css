@@ -54,7 +54,7 @@ html {
 
 body {
 	/* Text-Sizing with ems: http://www.clagnut.com/blog/348/ */
-	font-family: Verdana, Helvetica, Arial, sans-serif;
+	font-family: "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
 	/*font-size: 62.5%;			 This sets the default font size to be equivalent to 10px */
 	font-size: 10px;
 	line-height: normal;
@@ -65,7 +65,7 @@ body {
 
 h1 {
 	/* Forum name */
-	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-family: "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
 	margin-right: 200px;
 	margin-top: 15px;
 	font-weight: bold;
@@ -74,7 +74,7 @@ h1 {
 
 h2 {
 	/* Forum header titles */
-	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-family: "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
 	font-weight: normal;
 	font-size: 2em;
 	margin: 0.8em 0 0.2em 0;
@@ -86,7 +86,7 @@ h2.solo {
 
 h3 {
 	/* Sub-headers (also used as post headers, but defined later) */
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
 	font-weight: bold;
 	text-transform: uppercase;
 	border-bottom: 1px solid transparent;
@@ -98,7 +98,7 @@ h3 {
 
 h4 {
 	/* Forum and topic list titles */
-	font-family: "Trebuchet MS", Verdana, Helvetica, Arial, Sans-serif;
+	font-family: "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
 	font-size: 1.3em;
 }
 
@@ -176,7 +176,6 @@ ol ol ul, ol ul ul, ul ol ul, ul ul ul {
 ---------------------------------------- */
 #wrap {
 	border: 1px solid transparent;
-	border-radius: 8px;
 	margin: 0 auto;
 	max-width: 1152px;
 	min-width: 625px;
@@ -228,12 +227,18 @@ ol ol ul, ol ul ul, ul ol ul, ul ul ul {
 	background: transparent none repeat-x 0 0;
 	margin-bottom: 4px;
 	padding: 5px;
-	border-radius: 7px;
 }
 
 .navbar {
 	padding: 3px 10px;
-	border-radius: 7px;
+}
+
+#nav-main li:before{
+		content:"";
+}
+#nav-main span:before{
+	font-weight:bold;
+	color:#008B00;
 }
 
 .forabg {
@@ -241,7 +246,6 @@ ol ol ul, ol ul ul, ul ol ul, ul ul ul {
 	margin-bottom: 4px;
 	padding: 5px;
 	clear: both;
-	border-radius: 7px;
 }
 
 .forumbg {
@@ -249,13 +253,11 @@ ol ol ul, ol ul ul, ul ol ul, ul ul ul {
 	margin-bottom: 4px;
 	padding: 5px;
 	clear: both;
-	border-radius: 7px;
 }
 
 .panel {
 	margin-bottom: 4px;
 	padding: 5px 10px;
-	border-radius: 7px;
 }
 
 .post {
@@ -263,7 +265,6 @@ ol ol ul, ol ul ul, ul ol ul, ul ul ul {
 	margin-bottom: 4px;
 	background-repeat: no-repeat;
 	background-position: 100% 0;
-	border-radius: 7px;
 	position: relative;
 }
 
@@ -445,7 +446,6 @@ ul.linklist.bulletin > li.no-bulletin:before {
 	top: 1.2em;
 	z-index: 2;
 	border: 1px solid transparent;
-	border-radius: 5px;
 	padding: 9px 0 0;
 	margin-right: -500px;
 }
@@ -530,7 +530,6 @@ ul.linklist.bulletin > li.no-bulletin:before {
 	overflow: hidden;
 	overflow-y: auto;
 	border: 1px solid transparent;
-	border-radius: 5px;
 	padding: 5px;
 	position: relative;
 	min-width: 40px;
@@ -594,20 +593,21 @@ ul.linklist.bulletin > li.no-bulletin:before {
 
 /* Responsive breadcrumbs
 ----------------------------------------*/
+#home_icon:before {
+	color: #008B00;
+}
 .breadcrumbs .crumb {
-	float: left;
+	display:inline-block;
 	font-weight: bold;
 	word-wrap: normal;
 }
-
-.breadcrumbs .crumb:before {
-	content: '\2039';
-	font-weight: bold;
-	padding: 0 0.5em;
+.breadcrumbs .crumb:after {
+	padding-left: 5px;
+	content: ">";
+	color: #008B00;
 }
-
-.breadcrumbs .crumb:first-child:before {
-	content: none;
+.breadcrumbs .crumb:last-child:after {
+	display:none;
 }
 
 .breadcrumbs .crumb a {
@@ -974,7 +974,6 @@ fieldset.fields1 dl.pmlist dd.recipients {
 
 #loading_indicator {
 	background: center center no-repeat;
-	border-radius: 5px;
 	display: none;
 	opacity: 0.8;
 	margin-top: -50px;
@@ -1024,7 +1023,6 @@ div.rules {
 	margin: 10px 0;
 	font-size: 1.1em;
 	padding: 5px 10px;
-	border-radius: 7px;
 }
 
 div.rules ul, div.rules ol {
@@ -1164,7 +1162,6 @@ ul.linklist:after,
 	text-transform: uppercase;
 	line-height: 30px;
 	border-bottom: 1px solid;
-	border-radius: 5px 5px 0 0;
 }
 
 .dropdown-extended .header .header_settings {
@@ -1295,4 +1292,8 @@ ul.linklist:after,
 
 .dropdown .clone.hidden + li {
 	border-top: none;
+}
+
+.audible {
+	font-size:0;
 }
