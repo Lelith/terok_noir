@@ -375,14 +375,6 @@ ul.linklist .dropdown-up .dropdown {
 
 /* Bulletin icons for list items
 ----------------------------------------*/
-ul.linklist.bulletin > li:before {
-	display: inline-block;
-	content: "\2022";
-	font-size: inherit;
-	line-height: inherit;
-	padding-right: 4px;
-}
-
 ul.linklist.bulletin > li:first-child:before,
 ul.linklist.bulletin > li.rightside:last-child:before {
 	content: none;
@@ -593,9 +585,6 @@ ul.linklist.bulletin > li.no-bulletin:before {
 
 /* Responsive breadcrumbs
 ----------------------------------------*/
-#home_icon:before {
-	color: #008B00;
-}
 .breadcrumbs .crumb {
 	display:inline-block;
 	font-weight: bold;

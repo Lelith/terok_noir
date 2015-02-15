@@ -119,11 +119,15 @@ table.zebra-list tr:nth-child(even) td, ul.zebra-list li:nth-child(even) {
 	background-color: #E7E8EA;
 }
 
-/* Horizontal lists
+/* navigation links
 ----------------------------------------*/
 
 ul.navlinks {
 	border-top-color: #FFFFFF;
+}
+
+.navbar .icon:before {
+	color: #008B00;
 }
 
 /* Table styles
@@ -364,7 +368,7 @@ li.row {
 }
 
 li.row strong {
-	color: #000000;
+	color: #FFFFFF;
 }
 
 li.row:hover {
@@ -697,10 +701,8 @@ Colours and backgrounds for buttons.css
 .announce_unread_locked_mine									{ background-image: url("./images/announce_unread_locked_mine.gif"); }
 
 .forum_link														{ background-image: url("./images/forum_link.gif"); }
-.forum_read_locked												{ background-image: url("./images/forum_read_locked.gif"); }
 .forum_read_subforum											{ background-image: url("./images/forum_read_subforum.gif"); }
 .forum_unread_locked											{ background-image: url("./images/forum_unread_locked.gif"); }
-.forum_unread_subforum											{ background-image: url("./images/forum_unread_subforum.gif"); }
 
 .sticky_read													{ background-image: url("./images/sticky_read.gif"); }
 .sticky_read_mine												{ background-image: url("./images/sticky_read_mine.gif"); }
