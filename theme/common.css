@@ -1293,3 +1293,7 @@ ul.linklist:after,
 .dropdown .clone.hidden + li {
 	border-top: none;
 }
+
+.audible {
+	font-size:0;
+}
