@@ -734,7 +734,6 @@ table.info tbody th {
 }
 
 dl.details {
-	/*font-family: "Lucida Grande", Verdana, Helvetica, Arial, sans-serif;*/
 	font-size: 1.1em;
 }
 
@@ -1285,4 +1284,17 @@ ul.linklist:after,
 
 .audible {
 	font-size:0;
+}
+
+.mine {
+	display:none;
+}
+.topic_read_mine .mine,
+.topic_unread_mine .mine,
+.announce_read_mine .mine,
+.topic_unread_mine .mine {
+	display:inline-block;
+	vertical-align: top;
+	font-size: 10px;
+	font-weight: bold;
 }
