@@ -1298,3 +1298,15 @@ ul.linklist:after,
 	font-size: 10px;
 	font-weight: bold;
 }
+ul.topiclist li.row .icon,
+ul.topiclist li.row .icon{
+	margin-top: 5px;
+	margin-left:5px;
+	display:inline-block;
+}
+
+ul.topiclist li.row .announce_read_mine .icon:before,
+ul.topiclist li.row .announce_read .icon:before
+{
+	font-size: 25px;
+}
