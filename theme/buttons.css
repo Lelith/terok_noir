@@ -185,6 +185,8 @@ ul.linklist.bulletin > li.small-icon:before {
 
 .post-buttons .icon-button {
 	padding: 0 5px;
+	text-align: center;
+	width: 11px;
 }
 
 .hastouch .post-buttons .icon-button {
