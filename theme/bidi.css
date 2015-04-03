@@ -1051,9 +1051,6 @@ li.breadcrumbs span:first-child > a {
 	.rtl ul.topiclist.forums dt {
 		margin-left: -250px;
 	}
-	.rtl ul.topiclist.forums dt .list-inner {
-		margin-left: 250px;
-	}
 
 	.rtl ul.topiclist dd.mark {
 		left: 5px;
@@ -1114,10 +1111,6 @@ li.breadcrumbs span:first-child > a {
 	/* .topiclist lists
 	----------------------------------------*/
 	.rtl ul.topiclist.forums dt {
-		margin-left: 0;
-	}
-
-	.rtl ul.topiclist.forums dt .list-inner {
 		margin-left: 0;
 	}
 }

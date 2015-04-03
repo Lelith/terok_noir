@@ -134,14 +134,10 @@ ul.topiclist dd.mark {
 ul.topiclist.forums dt {
 	margin-right: -250px;
 }
-ul.topiclist.forums dt .list-inner {
-	margin-right: 250px;
-}
 
 ul.topiclist.forums dd.lastpost {
 	display: block;
 }
-
 ul.topiclist dd.mark {
 	display: block;
 	position: absolute;
@@ -166,13 +162,10 @@ ul.topiclist.forums dd.topics dfn, ul.topiclist.topics dd.posts dfn {
 		margin-right: 0;
 	}
 
-	ul.topiclist.forums dt .list-inner {
-		margin-right: 0;
-	}
-
 	ul.topiclist.forums dd.lastpost {
 		display: none;
 	}
+
 }
 
 li.row .responsive-show strong {
@@ -572,3 +565,15 @@ fieldset.display-actions {
 		width: 100%;
 	}
 }
+
+@media (min-width:550px) {
+	ul.topiclist dt .list-inner {
+		width: 50%;
+	}
+}
+/*
+@media (min-width:650px) {
+	ul.topiclist dt .list-inner {
+		width: 25%;
+	}
+}*/
