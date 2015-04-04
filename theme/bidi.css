@@ -336,30 +336,31 @@ li.breadcrumbs span:first-child > a {
 /**
 * content.css
 */
-.rtl ul.topiclist dt, .rtl li.header dt {
-	float: right;
+.rtl ul.topiclist dt,
+.rtl li.header dt {
+	display: inline-block;
 	margin-right: 0;
-	margin-left: -440px;
+
 }
 
 .rtl ul.topiclist.missing-column dt {
 	margin-right: 0;
-	margin-left: -345px;
+
 }
 
 .rtl ul.topiclist.two-long-columns dt {
 	margin-right: 0;
-	margin-left: -250px;
+
 }
 
 .rtl ul.topiclist.two-columns dt {
 	margin-right: 0;
-	margin-left: -80px;
+
 }
 
 .rtl ul.topiclist dt .list-inner {
 	margin-right: 0;
-	margin-left: 440px;
+
 }
 
 .rtl ul.topiclist.missing-column dt .list-inner {
@@ -369,12 +370,12 @@ li.breadcrumbs span:first-child > a {
 
 .rtl ul.topiclist.two-long-columns dt .list-inner {
 	margin-right: 0;
-	margin-left: 250px;
+
 }
 
 .rtl ul.topiclist.two-columns dt .list-inner {
 	margin-right: 0;
-	margin-left: 80px;
+
 }
 
 .rtl ul.topiclist dd {
