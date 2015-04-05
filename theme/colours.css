@@ -308,22 +308,11 @@ a.top2 {
 }
 
 /* Arrow links  */
-a.arrow-up			{ background-image: url("./images/arrow_up.gif"); }
-a.arrow-down		{ background-image: url("./images/arrow_down.gif"); }
-a.arrow-left		{ background-image: url("./images/arrow_left.gif"); }
-a.arrow-right		{ background-image: url("./images/arrow_right.gif"); }
 
 a.arrow-up:hover {
 	background-color: transparent;
 }
 
-a.arrow-left:hover {
-	color: #368AD2;
-}
-
-a.arrow-right:hover {
-	color: #368AD2;
-}
 
 /*
 ------------------------------------------------------------
@@ -629,9 +618,6 @@ Colours and backgrounds for buttons.css
 	color: #558000;
 }
 
-.dropdown-select {
-	color: #cbcbcb;
-}
 
 .button:hover, .dropdown-visible .dropdown-select, .nojs .dropdown-container:hover .dropdown-select {
 	background-color: #CBCBCB;
@@ -804,7 +790,6 @@ Colours and backgrounds for forms.css
 select {
 	border-color: #666666;
 	background-color: #FAFAFA;
-	color: #ffffff;
 }
 
 label {
