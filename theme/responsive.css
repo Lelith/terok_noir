@@ -127,7 +127,7 @@ body {
 	/* Forums and topics lists
 	----------------------------------------*/
 
-	ul.topiclist.forums dd.lastpost , 
+	ul.topiclist.forums dd.lastpost ,
 	ul.topiclist.topics dd.lastpost {
 		display: inline-block;
 		width: 28%;
@@ -153,6 +153,10 @@ body {
 	}
 }
 @media only screen and (max-width: 550px), only screen and (max-device-width: 550px) {
+		ul.linklist >li {
+			display:block;
+		}
+
 	ul.topiclist.forums dt {
 		margin-right: 0;
 	}
@@ -574,6 +578,13 @@ body {
 }
 
 @media all and (min-width: 550px){
+	ul.linklist >li {
+		float:left;
+	}
+	ul.linklist > li.rightside, p.rightside, a.rightside {
+		float:right;
+		margin-left: 7px;
+	}
 	ul.topiclist dt {
 		width: 55%;
 	}
