@@ -25,16 +25,6 @@
 	padding-right: 24px;
 }
 
-.icon-button:before {
-	background: transparent 0 0 no-repeat;
-	content: '';
-	display: inline-block;
-	float: right;
-	height: 12px;
-	margin: 3px 0 0 2px;
-	width: 12px;
-}
-
 .dropdown-select.icon-button:before {
 	margin-right: 4px;
 }

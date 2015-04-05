@@ -193,13 +193,13 @@ dl.details dd {
 
 .pagination li.active span {
 	color: #ffffff;
-	background-color: #4692BF;
-	border-color: #4692BF;
+	background-color: #008B00;
+	border-color: #558000;
 }
 
 .pagination li a:hover, .pagination .dropdown-visible a.dropdown-trigger, .nojs .pagination .dropdown-container:hover a.dropdown-trigger {
-	border-color: #368AD2;
-	background-color: #368AD2;
+	border-color: #558000;
+	background-color: #008B00;
 	color: #ffffff;
 }
 
