@@ -380,7 +380,7 @@ input.button1:focus, input.button2:focus, input.button3:focus {
 }
 
 .search-box button.search-icon,
-#forum-search button.icon-button {
+.search-box	 button.icon-button {
 	border-radius: 0;
 	height: 24px;
 	margin: 0;
