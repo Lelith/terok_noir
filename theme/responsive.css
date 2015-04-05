@@ -526,7 +526,7 @@ body {
 	}
 }
 
-@media only screen and (max-width: 500px), only screen and (max-device-width: 500px) {
+@media all and (max-width: 550px), all and (max-device-width: 550px) {
 	dl.details dt, dl.details dd {
 		width: auto;
 		float: none;
@@ -536,11 +536,7 @@ body {
 	dl.details dd {
 		margin-left: 20px;
 	}
-}
 
-
-
-@media only screen and (max-width: 500px), only screen and (max-device-width: 500px) {
 	p.responsive-center {
 		float: none;
 		text-align: center;
@@ -574,6 +570,12 @@ body {
 	.attach-controls {
 		margin-top: 5px;
 		width: 100%;
+	}
+
+	ul.topiclist.topics dd.lastpost{
+		width: 100%;
+		margin-left: 30px;
+		margin-top: 10px;
 	}
 }
 
