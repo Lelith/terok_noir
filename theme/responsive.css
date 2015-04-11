@@ -603,4 +603,25 @@ body {
 	ul.topiclist li.row .icon::before{
 		font-size:30px;
 	}
+
+
+	#smiley-box {
+		width: 23%;
+		float: right;
+	}
+
+	#message-box {
+		width: 75%;
+		float: left;
+	}
+
+	.postprofile {
+		width: 10%;
+		float: right;
+	}
+	.postbody {
+		width: 85%;
+		float: left; 
+	}
+
 }

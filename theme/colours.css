@@ -793,7 +793,7 @@ select {
 }
 
 label {
-	color: #8D8D8D;
+	color: #fff;
 }
 
 option.disabled-option {
@@ -812,7 +812,7 @@ fieldset.fields1 {
 
 /* Hover effects */
 fieldset dl:hover dt label {
-	color: #ffffff;
+	color: #CBCBCB;
 }
 
 fieldset.fields2 dl:hover dt label {
