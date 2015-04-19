@@ -280,18 +280,17 @@ a:hover	{ color: #558000; }
 
 /* Post body links */
 .postlink {
-	color: #368AD2;
-	border-bottom-color: #368AD2;
+	color: #008B00;
+	border-bottom-color: #008B00;
 }
 
 .postlink:visited {
-	color: #5D8FBD;
-	border-bottom-color: #5D8FBD;
+	color: #006100;
+	border-bottom-color: #006100;
 }
 
 .postlink:hover {
-	background-color: #D0E4F6;
-	color: #0D4473;
+	color: #66b966;
 }
 
 .signature a, .signature a:hover {
@@ -319,6 +318,8 @@ a.arrow-up:hover {
 colored icons
 ----------------------------------------------------------- */
 .icon.unread:before,
+.icon.pm_unread:before,
+.icon.topic_unread:before,
 .mine {
 	color: #DF6500;
 }
