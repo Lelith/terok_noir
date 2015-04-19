@@ -133,11 +133,6 @@ li.header dt, li.header dd {
 li.header dt {
 	font-weight: bold;
 	width: 100%;
-	margin-right: -440px;
-}
-
-li.header dt .list-inner {
-	margin-right: 440px;
 }
 
 li.header dd {
