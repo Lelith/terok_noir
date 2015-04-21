@@ -26,10 +26,10 @@
 	margin-right: 4px;
 }
 
-.dropdown-select .icon {
+.dropdown-select .dropdown-icon {
 	margin-left: 26px;
 }
-.dropdown-select .icon:before {
+.dropdown-select .dropdown-icon:before {
 	border-left: 1px solid;
 	position: absolute;
 	top: 0;
