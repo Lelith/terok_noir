@@ -102,7 +102,7 @@ table.zebra-list tr:nth-child(odd) td, ul.zebra-list li:nth-child(odd) {
 }
 
 .bg2 {
-	background-color: #1B1B1B;
+	background-color: #505050;
 }
 
 table.zebra-list tr:nth-child(even) td, ul.zebra-list li:nth-child(even) {
@@ -123,7 +123,7 @@ table.zebra-list tr:nth-child(even) td, ul.zebra-list li:nth-child(even) {
 ----------------------------------------*/
 
 ul.navlinks {
-	border-top-color: #ffffff;
+	border-top-color: #000;
 }
 
 .navbar .icon:before {
@@ -181,9 +181,9 @@ dl.details dd {
 ---------------------------------------- */
 
 .pagination li a {
-	color: #5C758C;
-	background-color: #ECEDEE;
-	border-color: #B4BAC0;
+	color: #BFBFBF;
+	background-color: #404040;
+	border-color: #808080;
 }
 
 .pagination li.ellipsis span {
@@ -192,15 +192,15 @@ dl.details dd {
 }
 
 .pagination li.active span {
-	color: #ffffff;
-	background-color: #008B00;
-	border-color: #558000;
+	color: #000;
+	background-color: #808080;
+	border-color: #808080;
 }
 
 .pagination li a:hover, .pagination .dropdown-visible a.dropdown-trigger, .nojs .pagination .dropdown-container:hover a.dropdown-trigger {
-	border-color: #558000;
-	background-color: #008B00;
-	color: #ffffff;
+	border-color: #808080;
+	background-color: #808080;
+	color: #000;
 }
 
 .pagination li.next a, .pagination li.previous a, .pagination li.page-jump a {
@@ -235,8 +235,8 @@ li.reported:hover {
 }
 
 div.rules {
-	background-color: #ECD5D8;
-	color: #BC2A4D;
+	background-color: #69240B;
+	color: #C8611E;
 }
 
 p.post-notice {
@@ -262,7 +262,7 @@ Colours and backgrounds for links.css
 -------------------------------------------------------------- */
 
 a { color: #008B00; }
-a:hover	{ color: #558000; }
+a:hover	{ color: #393; }
 
 /* Links on gradient backgrounds */
 .forumbg .header a, .forabg .header a, th a {
@@ -356,8 +356,8 @@ ul.topiclist li.row dt a.subforum.unread {
 }
 
 li.row {
-	border-top-color:  #ffffff;
-	border-bottom-color: #00608F;
+	border-top-color:  #000;
+	border-bottom-color: #888;
 }
 
 li.row strong {
@@ -390,7 +390,7 @@ li.header dt, li.header dd {
 /* Content container styles
 ----------------------------------------*/
 .content {
-	color: #CBCBCB;
+	color: #DBDBCE;
 }
 
 .content h2, .panel h2 {
@@ -425,9 +425,9 @@ dl.faq dt {
 ----------------------------------------*/
 /* Quote block */
 blockquote {
-	background-color: #EBEADD;
+	background-color: #808080;
 	background-image: url("./images/quote.gif");
-	border-color:#DBDBCE;
+	border-color:#808080;
 }
 
 .rtl blockquote {
@@ -436,12 +436,12 @@ blockquote {
 
 blockquote blockquote {
 	/* Nested quotes */
-	background-color:#EFEED9;
+	background-color:#808080;
 }
 
 blockquote blockquote blockquote {
 	/* Nested quotes */
-	background-color: #EBEADD;
+	background-color: #808080;
 }
 
 /* Code block */
@@ -616,7 +616,7 @@ Colours and backgrounds for buttons.css
 	border-color: rgba(0, 0, 0, 0.6);
 	background-color: #020202;
 	background-image:linear-gradient(#484E55, #3A3F44 60%, #313539);
-	color: #558000;
+	color: #393;
 }
 
 
@@ -680,7 +680,7 @@ ul.cplist {
 
 #tabs .tab > a:hover {
 	background: #3B3B3B;
-	color: #558000;
+	color: #393;
 }
 
 #tabs .activetab > a,
@@ -713,7 +713,7 @@ ul.cplist {
 }
 
 .responsive-tab .responsive-tab-link:hover:before {
-	border-color: #558000;
+	border-color: #393;
 }
 
 
@@ -857,11 +857,11 @@ fieldset.quick-login input.inputbox {
 }
 
 .inputbox:hover {
-	border-color: #11A3EA;
+	border-color: #DF6500;
 }
 
 .inputbox:focus {
-	border-color: #11A3EA;
+	border-color: #DF6500;
 	color: #0F4987;
 }
 
@@ -984,7 +984,7 @@ ul.linklist li.responsive-menu a.responsive-menu-link:before {
 }
 
 ul.linklist li.responsive-menu a.responsive-menu-link:hover:before, ul.linklist li.responsive-menu.visible a.responsive-menu-link:before {
-	border-color: #558000;
+	border-color: #393;
 }
 
 .dropdown .dropdown-contents {
@@ -1013,5 +1013,5 @@ ul.linklist li.responsive-menu a.responsive-menu-link:hover:before, ul.linklist 
 }
 
 li.notification-reported strong, li.notification-disapproved strong {
-	color: #558000;
+	color: #393;
 }
