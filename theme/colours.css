@@ -20,6 +20,7 @@ html, body {
 	background-color: #060606;
 }
 
+
 h1 {
 	color: #ffffff;
 }
@@ -66,6 +67,10 @@ hr {
 .headerbar {
 	background-color: #008B00;
 	color: #ffffff;
+	background-image:  url('./images/tentakel_transparent_mt.svg');
+	background-position: 130% 34%;
+	background-repeat: no-repeat;
+	background-size: 93%;
 }
 
 .navbar {

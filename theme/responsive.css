@@ -49,17 +49,13 @@ body {
 	#site-description {
 		float: none;
 		width: auto;
-		text-align: center;
 	}
 
-	.logo {
-		/* change display value to inline-block to show logo */
-		display: none;
-		float: none;
-		padding: 10px;
+	#site-description h1 {
+		display: inline-block;
+		vertical-align: top;
 	}
-
-	#site-description h1, #site-description p {
+	 #site-description p {
 		text-align: inherit;
 		float: none;
 		margin: 5px;
@@ -585,7 +581,10 @@ body {
 	}
 }
 
-@media all and (min-width: 550px){
+@media all and (min-width: 550px) {
+	.headerbar{
+		height: 100%;
+	}
 	ul.linklist >li {
 		float:left;
 	}
