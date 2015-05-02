@@ -28,6 +28,8 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 	background-image: url('./images/bg_spitze.svg');
+	background-repeat: no-repeat;
+	background-position: right top;
 }
 ol, ul {
 	list-style: none;
