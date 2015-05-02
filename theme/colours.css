@@ -60,7 +60,6 @@ hr {
 /* Round cornered boxes and backgrounds
 ---------------------------------------- */
 #wrap {
-	background-color: #151515;
 	border-color: transparent;
 }
 
@@ -203,13 +202,10 @@ dl.details dd {
 	color: #000;
 }
 
-.pagination li.next a, .pagination li.previous a, .pagination li.page-jump a {
-	background-image: url("./images/icons_pagination.png");
-}
+.pagination li.next a,
+.pagination li.previous a,
+.pagination li.page-jump a {
 
-/* Pagination in viewforum for multipage topics */
-.row .pagination {
-	background-image: url("./images/icon_pages.gif");
 }
 
 .row .pagination li a {
@@ -305,15 +301,6 @@ a:hover	{ color: #393; }
 
 .signature a, .signature a:hover {
 	background-color: transparent;
-}
-
-/* Back to top of page */
-a.top {
-	background-image: url("./images/icon_back_top.gif");
-}
-
-a.top2 {
-	background-image: url("./images/icon_back_top.gif");
 }
 
 /* Arrow links  */
