@@ -595,6 +595,9 @@ body {
 	ul.topiclist dt {
 		width: 55%;
 	}
+	ul.topiclist.pm-header dt {
+		width: 75%;
+	}
 	ul.topiclist.pmlist dt {
 		width: 70%;
 	}
