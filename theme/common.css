@@ -27,9 +27,6 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-	background-image: url('./images/bg_spitze.svg');
-	background-repeat: no-repeat;
-	background-position: right top;
 }
 ol, ul {
 	list-style: none;
@@ -57,7 +54,7 @@ html {
 
 body {
 	/* Text-Sizing with ems: http://www.clagnut.com/blog/348/ */
-	font-family: "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-family:"Helvetica Neue";
 	/*font-size: 62.5%;			 This sets the default font size to be equivalent to 10px */
 	font-size: 10px;
 	line-height: normal;
@@ -68,10 +65,9 @@ body {
 
 h1 {
 	/* Forum name */
-	font-family: "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-family: "Helvetica Neue";
 	margin-right: 200px;
 	margin-top: 15px;
-	font-weight: bold;
 	font-size: 2em;
 }
 
@@ -79,7 +75,7 @@ h2 {
 	/* Forum header titles */
 	font-family: "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
 	font-weight: normal;
-	font-size: 2em;
+	font-size: 1.8em;
 	margin: 0.8em 0 0.2em 0;
 }
 
@@ -204,12 +200,6 @@ ol ol ul, ol ul ul, ul ol ul, ul ul ul {
 	margin-top: 20px;
 }
 
-.logo {
-	float: left;
-	width: auto;
-	padding: 10px 13px 0 10px;
-}
-
 .logo:hover {
 	text-decoration: none;
 }
@@ -229,7 +219,7 @@ ol ol ul, ol ul ul, ul ol ul, ul ul ul {
 .headerbar {
 	background: transparent none repeat-x 0 0;
 	margin-bottom: 4px;
-	padding: 5px;
+	height: 51px;
 }
 
 .navbar {
