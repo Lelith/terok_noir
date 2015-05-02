@@ -102,7 +102,7 @@ table.zebra-list tr:nth-child(odd) td, ul.zebra-list li:nth-child(odd) {
 }
 
 .bg2 {
-	background-color: #505050;
+	background-color: #2e2e2e;
 }
 
 table.zebra-list tr:nth-child(even) td, ul.zebra-list li:nth-child(even) {
@@ -212,6 +212,12 @@ dl.details dd {
 	background-image: url("./images/icon_pages.gif");
 }
 
+.row .pagination li a {
+
+	color: #BFBFBF;
+	background-color: #000;
+	border-color: #808080;
+}
 /* Miscellaneous styles
 ---------------------------------------- */
 
@@ -263,6 +269,10 @@ Colours and backgrounds for links.css
 
 a { color: #008B00; }
 a:hover	{ color: #393; }
+
+.topictitle {
+	color: #cbcbcb;
+}
 
 /* Links on gradient backgrounds */
 .forumbg .header a, .forabg .header a, th a {
@@ -336,7 +346,7 @@ ul.forums {
 }
 
 ul.topiclist li {
-	color: #CBCBCB;
+	color: #888;
 }
 
 ul.topiclist dd {
@@ -365,7 +375,7 @@ li.row strong {
 }
 
 li.row:hover {
-	background-color: #3B3B3B;
+	background-color: #484848;
 }
 
 li.row:hover dd {
@@ -390,7 +400,7 @@ li.header dt, li.header dd {
 /* Content container styles
 ----------------------------------------*/
 .content {
-	color: #DBDBCE;
+	color: #DBDBDB;
 }
 
 .content h2, .panel h2 {
@@ -425,9 +435,10 @@ dl.faq dt {
 ----------------------------------------*/
 /* Quote block */
 blockquote {
-	background-color: #808080;
+	background-color: #DFDFDF;
 	background-image: url("./images/quote.gif");
-	border-color:#808080;
+	border-color:#DBDBCE;
+	color: #000;
 }
 
 .rtl blockquote {
@@ -436,12 +447,12 @@ blockquote {
 
 blockquote blockquote {
 	/* Nested quotes */
-	background-color:#808080;
+	background-color:#EFEFEF;
 }
 
 blockquote blockquote blockquote {
 	/* Nested quotes */
-	background-color: #808080;
+	background-color: #DFDFDF;
 }
 
 /* Code block */

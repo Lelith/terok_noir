@@ -154,6 +154,7 @@ ul.linklist.bulletin > li.small-icon:before {
 	float: right;
 	list-style: none;
 	margin-top: 2px;
+	margin-bottom: 10px;
 }
 
 .has-profile .post-buttons {
