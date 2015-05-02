@@ -1,4 +1,4 @@
-/* CSS Reset http://meyerweb.com/eric/tools/css/reset/ v2.0 | 20110126
+	/* CSS Reset http://meyerweb.com/eric/tools/css/reset/ v2.0 | 20110126
 ---------------------------------------- */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -27,6 +27,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	background-image: url('./images/bg_spitze.svg');
 }
 ol, ul {
 	list-style: none;
@@ -854,13 +855,17 @@ fieldset.fields1 dl.pmlist dd.recipients {
 	width: 24px;
 }
 
-.pagination li.next a {
-	background-position: -50px 2px;
+.pagination li a i {
+	width: 12px;
+	height: 12px;
+	display:block;
+	font-size: 12px;
+}
+.pagination .jump-icon {
+	font-size: 14px;
+	margin-left: 6px;
 }
 
-.pagination li.previous a {
-	background-position: -30px 2px;
-}
 
 .pagination li.page-jump a:hover, .pagination .dropdown-visible a.dropdown-trigger, .nojs .pagination .dropdown-container:hover a.dropdown-trigger { background-position: 0 -18px; }
 .pagination li.next a:hover { background-position: -50px -18px; }
