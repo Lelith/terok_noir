@@ -32,6 +32,9 @@ body {
 	margin-left: -5px;
 	margin-right: -5px;
 }
+.headerbar {
+	overflow:hidden;
+}
 
 #cp-main .forabg, #cp-main .forumdb, #cp-main .post, #cp-main .panel {
 	border-radius: 0px;
@@ -49,8 +52,11 @@ body {
 	#site-description {
 		float: none;
 		width: auto;
+		text-align: center;
 	}
-	 #site-description p {
+
+	#site-description h1,
+	#site-description p {
 		text-align: inherit;
 		float: none;
 		margin: 5px;
@@ -58,6 +64,7 @@ body {
 		overflow: hidden;
 		text-overflow: ellipsis;
 	}
+
 
 	#site-description p, .search-header {
 		display: none;
@@ -67,9 +74,6 @@ body {
 	----------------------------------------*/
 	.headerbar + .navbar {
 		margin-top: -5px;
-	}
-	.headerbar {
-		overflow:hidden;
 	}
 
 	/* Search
@@ -128,7 +132,7 @@ body {
 	/* Forums and topics lists
 	----------------------------------------*/
 
-	ul.topiclist.forums dd.lastpost ,
+	ul.topiclist.forums dd.lastpost,
 	ul.topiclist.topics dd.lastpost {
 		display: inline-block;
 		width: 28%;
@@ -386,7 +390,6 @@ body {
 	}
 
 	.post .postprofile {
-		width: 100px;
 		border-width: 0 0 1px 0;
 		padding-bottom: 5px;
 		margin: 0;
@@ -402,6 +405,68 @@ body {
 	.postprofile dt, .postprofile dd.profile-rank, .search .postprofile dd {
 		display: block;
 		margin: 0;
+	}
+	.postprofile dd {
+		display:none;
+	}
+	.postprofile .profile-joined,
+	.postprofile .profile-posts,
+	.postprofile .profile-webseite_a,
+	.postprofile .profile-webseite_b,
+	.postprofile .profile-webseite_c,
+	.postprofile .profile-webseite_d,
+	.postprofile .profile-phpbb_location {
+		display:block;
+	}
+	.postprofile .profile-webseite_a,
+	.postprofile .profile-webseite_b,
+	.postprofile .profile-webseite_c,
+	.postprofile .profile-webseite_d {
+		display:inline-block;
+		font-size: 0;
+		margin-top: 5px;
+		margin-right: 2px;
+	}
+	.postprofile .profile-webseite_a a,
+	.postprofile .profile-webseite_b a,
+	.postprofile .profile-webseite_c a,
+	.postprofile .profile-webseite_d a {
+		border:none;
+		width: 12px;
+		height: 12px;
+		font-size:0;
+		font-family: 'entypo';
+	  speak: none;
+	  font-style: normal;
+	  font-weight: normal;
+	  font-variant: normal;
+	  text-transform: none;
+	  line-height: 1;
+		text-decoration: none;
+
+	  /* Better Font Rendering =========== */
+	  -webkit-font-smoothing: antialiased;
+	  -moz-osx-font-smoothing: grayscale;
+	}
+
+	.postprofile .profile-webseite_a a:before,
+	.postprofile .profile-webseite_b a:before,
+	.postprofile .profile-webseite_c a:before,
+	.postprofile .profile-webseite_d a:before {
+		content: "\e6e7";
+		font-size: 12px;
+	}
+	.has-profile .postbody h3 {
+		margin-left: 0 !important;
+		margin-right: 0 !important;
+		margin-left: 30px;
+		margin-top: 10px;
+	}
+}
+
+@media all and (min-width: 550px) {
+	.headerbar{
+		height: 100%;
 	}
 
 	.postprofile .has-avatar .avatar-container {
@@ -519,6 +584,11 @@ body {
 		display: inline-block !important;
 		margin-top: 10px;
 		vertical-align: middle;
+	}
+	dt.has-profile-rank.has-avatar {
+		float:left;
+		margin-right: 10px;
+		height: 85px;
 	}
 }
 
@@ -648,7 +718,7 @@ body {
 	}
 
 	.postprofile {
-		width: 10%;
+		width: 13%;
 		float: right;
 	}
 	.postbody {
@@ -661,4 +731,4 @@ body {
 	body {
 		background-size: 850px auto;
 	}
-	}
+}
