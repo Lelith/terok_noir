@@ -621,6 +621,11 @@ body {
 		margin-left: 30px;
 		margin-top: 10px;
 	}
+	dt.has-profile-rank.has-avatar {
+		float:left;
+		margin-right: 10px;
+		height: 85px;
+	}
 }
 
 @media all and (min-width: 550px) {
@@ -681,7 +686,8 @@ body {
 	.postprofile .has-avatar .avatar-container {
 			width: 100px;
 			height: 100px;
-		}
+	}
+
 	.postbody {
 		width: 85%;
 		float: left;
