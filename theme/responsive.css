@@ -160,10 +160,6 @@ body {
 	}
 }
 @media only screen and (max-width: 550px), only screen and (max-device-width: 550px) {
-		ul.linklist >li {
-			display:block;
-		}
-
 	ul.topiclist.forums dt {
 		margin-right: 0;
 	}
