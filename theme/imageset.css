@@ -29,6 +29,10 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 }
 
+.imageset.icon_topic_newest:before {
+	content: "\e6ea";
+	font-size: 12px;
+}
 .imageset.icon_topic_latest:before {
 	content: "\e61e";
 	font-size: 12px;
