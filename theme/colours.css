@@ -145,12 +145,8 @@ table.table1 thead th {
 	color: #ffffff;
 }
 
-table.table1 tbody tr {
-	border-color: #BFC1CF;
-}
-
 table.table1 tbody tr:hover, table.table1 tbody tr.hover {
-	background-color: #CFE1F6;
+	background-color: #292929;
 	color: #ffffff;
 }
 
