@@ -9,7 +9,7 @@ Colours and backgrounds for common.css
 #CBCBCB text
 #ffffff text lighter
 #008B00 green highlights color
-#DF6500 orange highlights color
+	#DF6500 orange highlights color
 #0E3795 blue hightlights color
 
 -------------------------------------------------------------- */
@@ -231,11 +231,11 @@ dl.details dd {
 }
 
 .reported {
-	background-color: #F7ECEF;
+	background-color: #DF6500;
 }
 
 li.reported:hover {
-	background-color: #ECD5D8 !important;
+	background-color: #e27419 !important;
 }
 .sticky, .announce {
 	/* you can add a background for stickies and announcements*/
@@ -946,7 +946,7 @@ input.disabled {
 }
 
 .dropdown-extended ul li:hover {
-	background-color: #CFE1F6;
+	background-color: #292929;
 	color: #ffffff;
 }
 
@@ -961,13 +961,7 @@ input.disabled {
 }
 
 .dropdown-extended .header {
-	background: #F1F8FF;
-	background: -moz-linear-gradient(top, #F1F8FF 0%, #3B3B3B 100%);
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #F1F8FF), color-stop(100%, #3B3B3B));
-	background: -webkit-linear-gradient(top, #F1F8FF 0%, #3B3B3B 100%);
-	background: -o-linear-gradient(top, #F1F8FF 0%, #3B3B3B 100%);
-	background: -ms-linear-gradient(top, #F1F8FF 0%, #3B3B3B 100%);
-	background: linear-gradient(to bottom, #F1F8FF 0%, #3B3B3B 100%);
+	background-color: #060606;
 }
 
 .dropdown .pointer {
