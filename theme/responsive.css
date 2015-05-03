@@ -49,12 +49,6 @@ body {
 		max-height: 32px;
 	}
 
-	#site-description {
-		float: none;
-		width: auto;
-		text-align: center;
-	}
-
 	#site-description h1,
 	#site-description p {
 		text-align: inherit;
@@ -465,10 +459,6 @@ body {
 }
 
 @media all and (min-width: 550px) {
-	.headerbar{
-		height: 100%;
-	}
-
 	.postprofile .has-avatar .avatar-container {
 		margin: 0;
 		width: 100px;
@@ -660,11 +650,6 @@ body {
 @media all and (min-width: 550px) {
 	.headerbar{
 		height: 100%;
-	}
-	ul.linklist {
-		display: inline-block;
-		vertical-align: top;
-
 	}
 	ul.linklist >li {
 		float:left;
