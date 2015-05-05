@@ -429,14 +429,10 @@ dl.faq dt {
 /* Quote block */
 blockquote {
 	background-color: #DFDFDF;
-	background-image: url("./images/quote.gif");
 	border-color:#DBDBCE;
 	color: #000;
 }
 
-.rtl blockquote {
-	background-image: url("./images/quote_rtl.gif");
-}
 
 blockquote blockquote {
 	/* Nested quotes */
