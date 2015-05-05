@@ -831,6 +831,8 @@ fieldset.quick-login input.inputbox {
 #postform a {
 	color: #151515;
 }
+
+
 #postform a:hover {
 	text-decoration: underline;
 }
@@ -840,7 +842,7 @@ fieldset.quick-login input.inputbox {
 /* Input field styles
 ---------------------------------------- */
 .inputbox {
-	background-color: #ffffff;
+	background-color: #DFDFDF;
 	border-color: #B4BAC0;
 	color: #151515;
 }
