@@ -326,6 +326,10 @@ colored icons
 .icon.announce_unread_mine:before,
 .icon.topic_unread_mine:before,
 .icon.topic_unread_hot:before,
+.icon.topic_unread_hot_mine:before,
+.search-icons.topic_unread_hot_mine:after,
+.search-icons.topic_unread_mine:after,
+.search-icons.announce_unread:after,
 .mine {
 	color: #DF6500;
 }
@@ -355,6 +359,27 @@ search topic icons
 .search-icons.announce_read_mine:before,
 .search-icons.announce_read:before {
 	content: '\e6c8';
+}
+.search-icons.topic_read_locked:before,
+.search-icons.topic_read_locked_mine:before,
+.search-icons.topic_unread_locked_mine:before,
+.search-icons.topic_unread_locked:before {
+	content: '\e6d1';
+}
+.search-icons.topic_unread_hot_mine:after,
+.search-icons.topic_read_hot_mine:after,
+.search-icons.topic_read_locked_mine:after,
+.search-icons.topic_unread_mine:after,
+.search-icons.topic_read_mine:after,
+.search-icons.announce_unread:after,
+.search-icons.announce_read_mine:after {
+		content: '\e723';
+		position: absolute;
+		right: -5px;
+}
+
+.search-icons {
+	position: relative;
 }
 /*
 --------------------------------------------------------------
