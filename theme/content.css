@@ -456,9 +456,9 @@ blockquote cite {
 	/* Username/source of quoter */
 	font-style: normal;
 	font-weight: bold;
-	margin-left: 20px;
-	display: block;
+	display: inline-block;
 	font-size: 0.9em;
+	padding-left: 2px;
 }
 
 blockquote cite cite {
