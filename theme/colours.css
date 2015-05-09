@@ -323,11 +323,38 @@ colored icons
 .icon.unread:before,
 .icon.pm_unread:before,
 .icon.topic_unread:before,
+.icon.announce_unread_mine:before,
+.icon.topic_unread_mine:before,
+.icon.topic_unread_hot:before,
 .mine {
 	color: #DF6500;
 }
 .read .mine {
 	color:#CBCBCB;
+}
+
+/*
+--------------------------------------------------------------
+search topic icons
+--------------------------------------------------------------
+*/
+.search-icons.topic_unread_hot:before,
+.search-icons.topic_unread_hot_mine:before,
+.search-icons.topic_read_hot_mine:before,
+.search-icons.topic_read_hot:before {
+	content:'\e610';
+}
+.search-icons.topic_unread:before,
+.search-icons.topic_unread_mine:before,
+.search-icons.topic_read_mine:before,
+.search-icons.topic_read:before {
+	content: '\e6dd';
+}
+.search-icons.announce_unread_mine:before,
+.search-icons.announce_unread:before,
+.search-icons.announce_read_mine:before,
+.search-icons.announce_read:before {
+	content: '\e6c8';
 }
 /*
 --------------------------------------------------------------
