@@ -702,6 +702,8 @@ fieldset.polls dd div {
 	display: block;
 	float: left;
 	max-width: 100%;
+	width: 100%;
+	margin:0 auto;
 }
 
 .postprofile .avatar img {
