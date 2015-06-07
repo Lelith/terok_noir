@@ -252,17 +252,6 @@ p.post-notice {
 	background-image: none;
 }
 
-p.post-notice.deleted:before {
-	background-image: url("./images/icon_topic_deleted.png");
-}
-
-p.post-notice.unapproved:before {
-	background-image: url("./images/icon_topic_unapproved.gif");
-}
-
-p.post-notice.reported:before, p.post-notice.error:before {
-	background-image: url("./images/icon_topic_reported.gif");
-}
 
 /*
 --------------------------------------------------------------
@@ -323,12 +312,20 @@ colored icons
 .icon.unread:before,
 .icon.pm_unread:before,
 .icon.topic_unread:before,
+.icon.announce_unread_mine:before,
+.icon.topic_unread_mine:before,
+.icon.topic_unread_hot:before,
+.icon.topic_unread_hot_mine:before,
+.search-icons.topic_unread_hot_mine:after,
+.search-icons.topic_unread_mine:after,
+.search-icons.announce_unread:after,
 .mine {
 	color: #DF6500;
 }
 .read .mine {
-	color:#CBCBCB;
+	color:#888;
 }
+
 /*
 --------------------------------------------------------------
 Colours and backgrounds for content.css
@@ -351,9 +348,6 @@ ul.topiclist dd {
 	border-left-color: transparent;
 }
 
-ul.topiclist li.row dt a.subforum.read {
-	background-image: url("./images/subforum_read.gif");
-}
 
 ul.topiclist li.row dt a.subforum.unread {
 }
@@ -598,10 +592,6 @@ fieldset.polls dd div {
 
 .postprofile strong {
 	color: #ffffff;
-}
-
-.online {
-	background-image: url("./en/icon_user_online.gif");
 }
 
 dd.profile-warnings {
@@ -911,9 +901,6 @@ input.button1:focus, input.button2:focus, input.button3:focus {
 	color: #0F4987;
 }
 
-input.search {
-	background-image: url("./images/icon_textbox_search.gif");
-}
 
 input.disabled {
 	color: #666666;
@@ -925,16 +912,12 @@ input.disabled {
 	background-color: #ffffff;
 	border-color: #999999;
 }
-.phpbb_alert .alert_close {
-	background-image: url("./images/alert_close.png");
-}
 #darken {
 	background-color: #ffffff;
 }
 
 #loading_indicator {
 	background-color: #ffffff;
-	background-image: url("./images/loading.gif");
 }
 
 .dropdown-extended ul li {
