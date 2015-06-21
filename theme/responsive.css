@@ -712,6 +712,12 @@ body {
 		background-size: 550px auto;
 	}
 
+	/* Site description and logo */
+	#site-description {
+		float: left;
+		width: 65%;
+	}
+
 	#wrap{
 		margin: 0 auto;
 	}

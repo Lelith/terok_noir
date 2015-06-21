@@ -206,12 +206,6 @@ ol ol ul, ol ul ul, ul ol ul, ul ul ul {
 	text-decoration: none;
 }
 
-/* Site description and logo */
-#site-description {
-	float: left;
-	width: 65%;
-}
-
 #site-description h1 {
 	margin-right: 0;
 }
