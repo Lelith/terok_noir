@@ -122,7 +122,7 @@ hr {
 
 .spoiled-text {
 	display:none;
-} 
+}
 hr.dashed {
 	border-top-style: dashed;
 	margin: 10px 0;
@@ -204,12 +204,6 @@ ol ol ul, ol ul ul, ul ol ul, ul ul ul {
 
 .logo:hover {
 	text-decoration: none;
-}
-
-/* Site description and logo */
-#site-description {
-	float: left;
-	width: 65%;
 }
 
 #site-description h1 {
@@ -699,16 +693,10 @@ table.info tbody th {
 
 /* General classes for placing floating blocks */
 .left-box {
-	float: left;
 	width: auto;
 	text-align: left;
 	max-width: 100%;
 }
-
-.left-box.profile-details {
-	width: 80%;
-}
-
 .right-box {
 	float: right;
 	width: auto;
@@ -723,7 +711,6 @@ dl.details {
 dl.details dt {
 	float: left;
 	clear: left;
-	width: 30%;
 	text-align: right;
 	display: block;
 }
