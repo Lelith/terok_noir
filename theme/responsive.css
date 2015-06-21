@@ -353,12 +353,6 @@ body {
 		min-width: 50%;
 	}
 
-	/* User profile
-	----------------------------------------*/
-	.column1, .column2, .left-box.profile-details {
-		float: none;
-		width: auto;
-	}
 
 	/* Polls
 	----------------------------------------*/
@@ -691,6 +685,26 @@ body {
 	#nav-breadcrumbs {
 		display:block;
 	}
+
+	/* User profile
+	----------------------------------------*/
+	.column1,
+	.column2,
+	.left-box.profile-details,
+	.left-box.avatar {
+		float: left;
+	}
+	.left-box.avatar {
+		width: 100px;
+	}
+	dl.details dt {
+		width: 10%;
+	}
+
+	.left-box.profile-details {
+		width: 80%;
+	}
+
 }
 
 @media all and (min-width: 750px){
