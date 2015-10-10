@@ -895,13 +895,6 @@ a.button1:hover, input.button1:hover, a.button2:hover, input.button2:hover, inpu
 	color: #656565;
 }
 
-/* Focus states */
-input.button1:focus, input.button2:focus, input.button3:focus {
-	border-color: #11A3EA;
-	color: #0F4987;
-}
-
-
 input.disabled {
 	color: #666666;
 }
