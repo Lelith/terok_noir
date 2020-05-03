@@ -901,6 +901,16 @@ fieldset.fields1 dl.pmlist dd.recipients {
 .phpbb_alert .alert_close:hover {
 	background-position: 0 -16px;
 }
+.phpbb_alert .alert_close.big-close {
+  width: auto;
+  height: auto;
+  position: relative;
+  right: auto;
+  margin-top: 10px;
+}
+.phpbb_alert .alert_close.big-close:before {
+  display: none;
+}
 
 .phpbb_alert p {
 	margin: 8px 0;
@@ -1059,6 +1069,12 @@ ul.linklist:after,
 
 .smilies {
 	vertical-align: text-bottom;
+}
+
+.emoji
+{
+  width: 15px;
+  height: 15px;
 }
 
 .icon-notification {

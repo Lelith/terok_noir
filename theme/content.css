@@ -1,6 +1,10 @@
 /* Content Styles
 ---------------------------------------- */
 
+.running-text {
+  font-size: 12px;
+}
+
 ul.topiclist {
 	display: block;
 	list-style-type: none;
