@@ -93,15 +93,32 @@
 	</ul>
 
 	<ul id="nav-breadcrumbs" class="linklist navlinks" role="menubar">
-		<!-- DEFINE $MICRODATA = ' itemtype="http://data-vocabulary.org/Breadcrumb" itemscope=""' -->
+		<!-- DEFINE $MICRODATA = ' itemtype="http://schema.org/ListItem" itemprop="itemListElement" itemscope' -->
 		<!-- EVENT overall_header_breadcrumbs_before -->
-		<li class="breadcrumbs"><span class="icon icon-home home_icon"></span>
-			<!-- IF U_SITE_HOME --><span class="crumb"><a href="{U_SITE_HOME}"{$MICRODATA} data-navbar-reference="home">{L_SITE_HOME}</a></span><!-- ENDIF -->
-			<!-- EVENT overall_header_breadcrumb_prepend -->
-			<span class="crumb"><a href="{U_INDEX}" accesskey="h"{$MICRODATA} data-navbar-reference="index">{L_INDEX}</a></span>
-			<!-- BEGIN navlinks -->
-				<!-- EVENT overall_header_navlink_prepend -->
-				<span class="crumb"><a href="{navlinks.U_VIEW_FORUM}"{$MICRODATA}<!-- IF navlinks.MICRODATA --> {navlinks.MICRODATA}<!-- ENDIF -->>{navlinks.FORUM_NAME}</a></span>
+		<li class="breadcrumbs">
+      <span class="icon icon-home home_icon"></span>
+			<!-- IF U_SITE_HOME -->
+      <span class="crumb">
+        <a href="{U_SITE_HOME}"{$MICRODATA} data-navbar-reference="home">
+          {L_SITE_HOME}
+        </a>
+      </span>
+      <!-- ENDIF -->
+      <!-- EVENT overall_header_breadcrumb_prepend -->
+      <span class="crumb"><a href="{U_INDEX}" accesskey="h"{$MICRODATA} data-navbar-reference="index">{L_INDEX}</a></span>
+      <!-- BEGIN navlinks -->
+        {% set NAVLINK_NAME = navlinks.BREADCRUMB_NAME | default(navlinks.FORUM_NAME) %}
+        {% set NAVLINK_LINK = navlinks.U_BREADCRUMB | default(navlinks.U_VIEW_FORUM) %}
+        <!-- EVENT overall_header_navlink_prepend -->
+        <span class="crumb" {$MICRODATA}<!-- IF navlinks.MICRODATA --> {navlinks.MICRODATA}<!-- ENDIF -->>
+          <a href="{{ NAVLINK_LINK }}" itemtype="https://schema.org/Thing" itemscope itemprop="item">
+            <span itemprop="name">{{ NAVLINK_NAME }}</span>
+          </a>
+        <meta itemprop="position" content="{{ navlink_position }}{% set navlink_position = navlink_position + 1 %}" />
+      </span>
+        <!-- EVENT overall_header_navlink_append -->
+      <!-- END navlinks -->
+      <!-- EVENT overall_header_breadcrumb_append -->
 				<!-- EVENT overall_header_navlink_append -->
 			<!-- END navlinks -->
 			<!-- EVENT overall_header_breadcrumb_append -->
