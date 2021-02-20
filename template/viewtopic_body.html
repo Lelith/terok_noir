@@ -144,6 +144,15 @@
 			</dt>
 
 			<!-- IF postrow.RANK_TITLE or postrow.RANK_IMG --><dd class="profile-rank">{postrow.RANK_TITLE}<!-- IF postrow.RANK_TITLE and postrow.RANK_IMG --><br /><!-- ENDIF -->{postrow.RANK_IMG}</dd><!-- ENDIF -->
+      <!-- EVENT viewtopic_body_postrow_custom_fields_before -->
+      <!-- BEGIN custom_fields -->
+        <!-- IF postrow.custom_fields.PROFILE_FIELD_NAME eq "Pronomen" and postrow.custom_fields.PROFILE_FIELD_VALUE !=='' -->
+        <div class="pronomen">
+          <strong>{postrow.custom_fields.PROFILE_FIELD_NAME}:</strong> {postrow.custom_fields.PROFILE_FIELD_VALUE}
+        </div>
+        <!-- ENDIF -->
+      <!-- END custom_fields -->
+      <!-- EVENT viewtopic_body_postrow_custom_fields_after -->
 
 		<!-- IF postrow.POSTER_POSTS != '' --><dd class="profile-posts"><strong>{L_POSTS}{L_COLON}</strong> <!-- IF postrow.U_SEARCH !== '' --><a href="{postrow.U_SEARCH}"><!-- ENDIF -->{postrow.POSTER_POSTS}<!-- IF postrow.U_SEARCH !== '' --></a><!-- ENDIF --></dd><!-- ENDIF -->
 		<!-- IF postrow.POSTER_JOINED --><dd class="profile-joined"><strong>{L_JOINED}{L_COLON}</strong> {postrow.POSTER_JOINED}</dd><!-- ENDIF -->
